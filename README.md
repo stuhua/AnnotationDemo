@@ -29,6 +29,8 @@
 
 2. Effective Java第六章第35-37条说了注解优先于命名模式
 
+3. [Java 面试题问与答：编译时与运行时](http://www.importnew.com/1796.html)
+
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
 
 # 演示
