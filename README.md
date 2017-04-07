@@ -25,11 +25,16 @@
 ----
 # AnnotationDemo
 
-1. 反射的三种方法
+1. @Retention <br>
+   SOURCE, 只在源码中可用//用来标记的，比如Override, SuppressWarnings <br>
+   CLASS, 在源码和字节码中可用//编译时注解，需要继承AbstractProcessor类, 实现其抽象方法 <br>
+   RUNTIME, 在源码,字节码,运行时均可用//运行时注解,需要用到反射 
+ 
+2. 反射的三种方法
 
-2. Effective Java第六章第35-37条说了注解优先于命名模式
+3. Effective Java第六章第35-37条说了注解优先于命名模式
 
-3. [Java 面试题问与答：编译时与运行时](http://www.importnew.com/1796.html)
+4. [Java 面试题问与答：编译时与运行时](http://www.importnew.com/1796.html)
 
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
 
@@ -47,7 +52,7 @@ public @interface Test {
  注解并没有什么魔法, 之所以产生作用, 是对其解析后做了相应的处理. 注解仅仅只是个标记罢了.
 
 # CHANGELOG
-
+[Android 注解](https://juejin.im/entry/577142c3a633bd006435eea4)
 
 
 

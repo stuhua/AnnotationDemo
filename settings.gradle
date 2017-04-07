@@ -1,1 +1,1 @@
-include ':app', ':viewinjectlib'
+include ':app', ':viewinjectlib', ':MyAnnotation', ':testannotation'
