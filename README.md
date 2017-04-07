@@ -23,8 +23,29 @@
 在面试中能为自己加分的一个东西，好好看看吧 
 
 ----
+# AnnotationDemo
 
-123 中文(有没有加密啊？)  chinese、、、
+1. 反射的三种方法
+
+2. Effective Java第六章第35-37条说了注解优先于命名模式
+
+[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
+
+# 演示
+
+# 特点
+
+ ```
+ //元注解
+ @Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Test {
+}
+ ```
+ 通过反射来实现注解的真正功能
+
+# CHANGELOG
+
 
 
 

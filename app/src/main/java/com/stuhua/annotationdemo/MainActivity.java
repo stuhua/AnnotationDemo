@@ -20,6 +20,5 @@ public class MainActivity extends AppCompatActivity {
 
     @ViewInject(2)
     public void click() {
-
     }
 }
