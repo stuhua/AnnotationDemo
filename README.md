@@ -38,6 +38,14 @@
 
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
 
+**Android Support Annotations**
+
+- Nullness注解@NonNull @Nullable
+
+- 资源类型注解@StringRes
+
+- IntDef和StringDef注解
+
 # 演示
 
 # 特点
