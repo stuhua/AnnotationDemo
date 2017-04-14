@@ -23,6 +23,7 @@ public class ViewInjectProcessor extends AbstractProcessor {
         Messager messager = processingEnv.getMessager();
         for (TypeElement te : annotations) {
             for (Element e : roundEnv.getElementsAnnotatedWith(te)) {
+                ViewInject testAnnotation = e.getAnnotation(ViewInject.class);
                 messager.printMessage(Diagnostic.Kind.NOTE, "Printing: " + e.toString());
             }
         }
