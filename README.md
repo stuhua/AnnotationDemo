@@ -40,9 +40,9 @@
 
 **Android Support Annotations**
 
-- Nullness注解@NonNull @Nullable
+- Nullness注解,@NonNull @Nullable
 
-- 资源类型注解@StringRes
+- 资源类型注解,@StringRes
 
 - IntDef和StringDef注解
 
